@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EFQRCode",
+        "repositoryURL": "https://github.com/EFPrefix/EFQRCode.git",
+        "state": {
+          "branch": null,
+          "revision": "531dd44611d9df5721061eeaf6f65c2daf86cd58",
+          "version": "6.0.0"
+        }
+      },
+      {
+        "package": "swift_qrcodejs",
+        "repositoryURL": "https://github.com/ApolloZhu/swift_qrcodejs.git",
+        "state": {
+          "branch": null,
+          "revision": "53da4ea930345cb3c7d72a0e639d3318179722b4",
+          "version": "1.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
