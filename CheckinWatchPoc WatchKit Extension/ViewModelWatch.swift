@@ -5,6 +5,8 @@ class ViewModelWatch: NSObject, WCSessionDelegate, ObservableObject {
     
     static let shared = ViewModelWatch()
     
+    
+    
     @Published var partners: [Partner]?
     @Published var attendances: [Attendance]?
     @Published var lastAttendance: Attendance?
