@@ -1,0 +1,11 @@
+query PopularMovies {
+  popularMovies {
+    id
+    posterPath
+    title
+    releaseDate
+    overview
+    backdropPath
+    voteAverage
+  }
+}
