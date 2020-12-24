@@ -10,6 +10,7 @@
 		9C598F2C25941AD600520720 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 9C598F2B25941AD600520720 /* Apollo */; };
 		9C598F2E25941AD600520720 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 9C598F2D25941AD600520720 /* ApolloWebSocket */; };
 		9C598F3C25941D1C00520720 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C598F3B25941D1C00520720 /* API.swift */; };
+		9C598F4125941E6200520720 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C598F4025941E6200520720 /* Network.swift */; };
 		ED745C6C258AEB09005152DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED745C6B258AEB09005152DE /* AppDelegate.swift */; };
 		ED745C6E258AEB09005152DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED745C6D258AEB09005152DE /* SceneDelegate.swift */; };
 		ED745C70258AEB09005152DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED745C6F258AEB09005152DE /* ContentView.swift */; };
@@ -91,6 +92,7 @@
 		9C598F3625941C5D00520720 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		9C598F3725941C9600520720 /* PopularMovies.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = PopularMovies.graphql; sourceTree = "<group>"; };
 		9C598F3B25941D1C00520720 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		9C598F4025941E6200520720 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		ED745C68258AEB09005152DE /* CheckinWatchPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckinWatchPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED745C6B258AEB09005152DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED745C6D258AEB09005152DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				9C598F3625941C5D00520720 /* schema.json */,
 				9C598F3725941C9600520720 /* PopularMovies.graphql */,
 				9C598F3B25941D1C00520720 /* API.swift */,
+				9C598F4025941E6200520720 /* Network.swift */,
 			);
 			path = CheckinWatchPoc;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C598F4125941E6200520720 /* Network.swift in Sources */,
 				ED745CB2258BB923005152DE /* SessionHandler.swift in Sources */,
 				ED745CB4258BC4CE005152DE /* NearbyPartners.swift in Sources */,
 				ED745CAC258AF97A005152DE /* LocationManager.swift in Sources */,
